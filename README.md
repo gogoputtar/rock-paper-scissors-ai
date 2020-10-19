@@ -1,6 +1,3 @@
-# rock-paper-scissors
-https://youtu.be/0uSA3xyXlwM 
-
 An AI to play the Rock Paper Scissors game
 
 ## Requirements
@@ -11,10 +8,7 @@ An AI to play the Rock Paper Scissors game
 
 ## Set up instructions
 1. Clone the repo.
-```sh
-$ git clone https://github.com/SouravJohar/rock-paper-scissors.git
-$ cd rock-paper-scissors
-```
+
 
 2. Install the dependencies
 ```sh
@@ -22,14 +16,15 @@ $ pip install -r requirements.txt
 ```
 
 3. Gather Images for each gesture (rock, paper and scissors and None):
-In this example, we gather 200 images for the "rock" gesture
+In this example, we gather 400 images for the "rock" gesture
 ```sh
-$ python3 gather_images.py rock 200
+$ python3 gather_images.py rock 400
 ```
 
 4. Train the model
 ```sh
 $ python3 train.py
+(Complicated task)
 ```
 
 5. Test the model on some images
